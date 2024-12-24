@@ -1,0 +1,78 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000;
+    background-color: black;
+    border: 3px solid #0d00ff;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 0;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+}
+
+h2 {
+    color: #ff00ff;
+    border: 2px solid #ff0000;
+    background-color: #000;
+    font-size: 30px;
+    margin: 15px auto;
+    padding: 5px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #ff0000;
+    table-layout: auto; /* Ensure the table layout is auto */
+    width: auto; /* Ensure the table width is auto */
+}
+
+td {
+    background-color: #F88;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600 !important;
+}
+
+td, th {
+    border: 1px solid #ff0000;
+    margin: 0;
+    padding: 8px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+thead {
+    background-color: #00d0ff;
+    border-color: #ff0000;
+    font-weight: 700;
+    font-family: monospace, sans-serif;
+}
+
+.code-cell {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: auto;
+}
